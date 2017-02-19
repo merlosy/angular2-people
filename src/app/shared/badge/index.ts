@@ -1,1 +1,1 @@
-export * from './sfeir-badge.directive';
+export * from './cap-badge.directive';

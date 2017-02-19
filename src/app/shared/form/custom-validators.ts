@@ -7,15 +7,15 @@ export class CustomValidators {
      *
      * @param control
      *
-     * @returns {{sfeirEmail: boolean}}
+     * @returns {{capEmail: boolean}}
      */
-    static sfeirEmail(control: FormControl) {
+    static capEmail(control: FormControl) {
         // email regex
-        const regex = /^\w+\.\w@sfeir\.com$/;
+        const regex = /^(\w+\.\w+)+@capgemini\.com$/;
 
         // returns control
         return regex.test(control.value) ? null : {
-            sfeirEmail: true
+            capEmail: true
         }
     }
 }

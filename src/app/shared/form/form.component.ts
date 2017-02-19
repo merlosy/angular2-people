@@ -4,7 +4,7 @@ import { FormControl, Validators, FormGroup } from "@angular/forms";
 import { CustomValidators } from "./custom-validators";
 
 @Component({
-    selector: 'sfeir-form',
+    selector: 'cap-form',
     templateUrl: 'form.component.html',
     styleUrls: ['form.component.css']
 })
@@ -135,7 +135,7 @@ export class FormComponent implements OnInit, OnChanges {
                 Validators.required, Validators.minLength(2)
             ])),
             email: new FormControl('', Validators.compose([
-                Validators.required, CustomValidators.sfeirEmail
+                Validators.required, CustomValidators.capEmail
             ])),
             photo: new FormControl('https://randomuser.me/api/portraits/lego/6.jpg'),
             address: new FormGroup({

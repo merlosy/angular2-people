@@ -4,7 +4,7 @@ import 'rxjs/add/operator/mergeMap';
 import { PeopleService } from "../shared/index";
 
 @Component({
-    selector: 'sfeir-people',
+    selector: 'cap-people',
     templateUrl: 'people.component.html',
     styleUrls: ['people.component.css']
 })

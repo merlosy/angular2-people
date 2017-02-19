@@ -1,7 +1,7 @@
 import { Directive, Input, Renderer, ElementRef, OnInit } from '@angular/core';
 
 @Directive({
-  selector: '[sfeir-badge]'
+  selector: '[cap-badge]'
 })
 export class BadgeDirective implements OnInit {
 

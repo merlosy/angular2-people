@@ -1,8 +1,8 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
-import { Router } from "@angular/router";
+import { Router } from '@angular/router';
 
 @Component({
-    selector: 'sfeir-card',
+    selector: 'cap-card',
     templateUrl: 'card.component.html',
     styleUrls: ['card.component.css']
 })

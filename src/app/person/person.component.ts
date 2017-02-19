@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from "@angular/router";
-import { PeopleService } from "../shared/index";
+import { ActivatedRoute } from '@angular/router';
+import { PeopleService } from '../shared/index';
 
 @Component({
-    selector: 'sfeir-person',
+    selector: 'cap-person',
     templateUrl: 'person.component.html',
     styleUrls: ['person.component.css']
 })

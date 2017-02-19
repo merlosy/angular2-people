@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers, Response, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/map';
-import { Observable } from "rxjs";
-import { environment } from "../../../environments/environment";
+import { Observable } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 @Injectable()
 export class PeopleService {

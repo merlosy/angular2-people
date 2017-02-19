@@ -12,9 +12,9 @@ import { APP_ROUTES } from './app.routes';
 import { PeopleAppComponent } from './app.component';
 import { HomeComponent } from './home/index';
 import { PersonComponent } from './person/index';
-import { PeopleComponent } from "./people/index";
-import { CardComponent, FormComponent, PeopleService, NaPipe, SfeirBadgeDirective } from "./shared/index";
-import { UpdateComponent } from "./update/index";
+import { PeopleComponent } from './people/index';
+import { CardComponent, FormComponent, PeopleService, NaPipe, CapBadgeDirective } from './shared/index';
+import { UpdateComponent } from './update/index';
 
 @NgModule({
   imports: [
@@ -34,7 +34,7 @@ import { UpdateComponent } from "./update/index";
     FormComponent,
     UpdateComponent,
     NaPipe,
-    SfeirBadgeDirective
+    CapBadgeDirective
   ],
   providers: [
     PeopleService
